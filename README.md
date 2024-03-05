@@ -327,35 +327,3 @@ Unfortunately, this method isn't quite translation invariant though. We used a c
 
 <br>
 <br>
-
-# Contributions of the Authors
- - Paul Coen
-   - Manual labeling of other image files to have additional ground-truth data
-   - Manual labels of the blank_form.jpg boxes included in grade.py
-   - Full implementation of grade.py and methods taken within that included
-     - Harris corner detection
-     - Convolutional FFT function
-     - Hough line detection
-     - Non-maximal suppression
-     - Multiple filtering methods with numpy to transform data in ways that helped produce the end results seen
-     - Parameter tuning of the many threshold values within grade.py
-   - A full description of the method and implementation on grade.py is included in the grade.py section below
-   - Report on grade.py
-   - Coding assistance on inject.py and extract.py
- - Jaswanth Kranthi Boppana
-   - Suggested the idea of Masking Technique to implement on grade.py
-   - Actively involved in discussions and Suggestions of finalizing techniques for grade.py and inject & extract.py.
-   - Worked and implemented  various techiques on inject.py , extract.py and finalized one of the method. 
-      - Tried to implement cipher encoding.
-      - Implemented Answers Encoding using pixel value alteration.(Finalized method)
-      - Fine Tunned the pixel alteration method to be versatile enough to work on  both jpeg and png. (Paul's assitance was very helpful).
-   - Implementation  process of inject.py and extract.py is clearly mentioned in the above inject & extract text.
- - Mayur Jaisinghani
-   - Suggested the use of flood fill in grade.py.
-   - Suggested the idea of checking on the left only if there are more than two boxes marked, instead of every single answer.
-   - Worked on implementing 3 different methodologies in inject.py.
-     - AES encryption
-     - XOR encryption
-     - Steganography method
-   - Full decription of the above methods have been provided in the inject.py section.
-   - Maintained minutes of meetings.
